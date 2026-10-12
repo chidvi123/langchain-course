@@ -9,6 +9,7 @@ from langchain_groq import ChatGroq
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.runnables import RunnablePassthrough # get to know about this 
 from operator import itemgetter 
+#uv add langchain-pinecone langchain-huggingface
 
 load_dotenv()
 
