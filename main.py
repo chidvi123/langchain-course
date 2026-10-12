@@ -3,7 +3,7 @@ import os
 from dotenv import load_dotenv
 from langchain_core.prompts import PromptTemplate
 from langchain_groq import ChatGroq
-from langchain_ollama import ChatOllama
+#from langchain_ollama import ChatOllama
 
 load_dotenv()
 
@@ -27,7 +27,7 @@ def main():
     summary_template="""
     given the information {information} about a person I want you to create:
     1.A Short Summary
-    2. two intresting facts abput them
+    2. two intresting facts about them
     """
 
     summary_prompt_template=PromptTemplate(
