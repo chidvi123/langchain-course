@@ -1,7 +1,7 @@
 from dotenv import load_dotenv
 
 load_dotenv()
-
+#uv add langchain-ollama langchain-tavily tavily-python
 from langchain.agents import create_agent
 from langchain.tools import tool
 from langchain_core.messages import HumanMessage
